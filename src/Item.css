@@ -1,0 +1,91 @@
+.item{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:300px;
+    height:500px;
+    padding:20px 0;
+    background-color:white;
+    border: 1px solid #ddd;
+    border-radius:10px;
+    box-shadow:7px 7px 10px grey;
+  }
+  
+  .item-info{
+  
+    text-align:center;
+  }
+  .item-img{
+    width:85%;
+  }
+  img{
+    width:100%;
+  }
+  .add{
+    display:flex;
+    flex-direction:column;
+  }
+  
+  form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    display:flex;
+    justify-content:center;
+  }
+  
+  .value-button {
+    display: inline-block;
+    border: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 11px 0;
+    background: #eee;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .value-button:hover {
+    cursor: pointer;
+  }
+  
+  form #decrease {
+    font-weight:bolder;
+    margin-right: -4px;
+    border-radius: 8px 0 0 8px;
+  }
+  
+  form #increase {
+    margin-left: -4px;
+    border-radius: 0 8px 8px 0;
+  }
+  
+  form #input-wrap {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  input#number {
+    text-align: center;
+    border: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+  }
+  .add-to-cart{
+    width:50%;
+    margin:20px auto;
+    background: #eee;
+    border: 1px solid #ddd;
+    
+  }

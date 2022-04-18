@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: #363062;
+}
+
+.nav-links{
+  list-style: none;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#logo{
+  font-family: 'Rubik Glitch', cursive;
+}
+
+a{
+  color: white;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+a:hover{
+  color: #E9D5DA;
+}
+#cart{
+    background-color: #827397;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 15px;
+  }
