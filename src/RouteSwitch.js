@@ -179,7 +179,7 @@ const RouteSwitch = () => {
         <Route path="/ecommerce-site" exact element={
             <App />
         }/>
-        <Route path="ecommerce-site/shop"  element={
+        <Route path="/ecommerce-site/shop"  element={
             <Shop
               items ={state.items}
               decreaseValue={decreaseValue}
