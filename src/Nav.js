@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
     render(){
         return(
             <nav>
-                <div>
+                <div className='purple-links'>
                     <Link to="/ecommerce-site">
                         <h3 id='logo'>Purple Gallery</h3>
                     </Link>

@@ -23,7 +23,7 @@ class Item extends Component{
                     <input type="" className="number" id={this.props.id} value={this.props.value} onChange={this.props.onChange}/>
                     <div className="value-button increase"   value="Increase Value" onClick={this.props.increaseValue} data-id={this.props.data}>+</div>
                     </form>
-                    <button id='addItem' className="add-to-cart" data-pos={this.props.pos} >Add To Cart</button>
+                    <button  className="add-to-cart" data-pos={this.props.pos} >Add To Cart</button>
                 </div>
             </div>
         )
