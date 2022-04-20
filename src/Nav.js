@@ -12,10 +12,10 @@ import { Link } from 'react-router-dom';
         return(
             <nav>
                 <div className='purple-links'>
-                    <Link to="/ecommerce-site">
+                    <Link to="/ecommerce-site" onClick={this.props.pageChange}>
                         <h3 id='logo'>Purple Gallery</h3>
                     </Link>
-                    <Link to="ecommerce-site/shop" >
+                    <Link to="ecommerce-site/shop" onClick={this.props.pageChange}>
                             <h3 >Purple Shop</h3>
                     </Link>
                 </div>

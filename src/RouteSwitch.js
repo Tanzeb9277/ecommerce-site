@@ -65,6 +65,8 @@ const RouteSwitch = () => {
         },
       ]
     })
+    const [page, setPage] = useState("")
+    
     
 
     
@@ -95,7 +97,7 @@ const RouteSwitch = () => {
           }
  
         };
-      },[count, state, ] );
+      },[count, state, page ] );
 
       const resetCount = (name) => {
         console.log(name);
@@ -172,10 +174,15 @@ const RouteSwitch = () => {
         console.log(e.target.value)
       }
 
+      const pageChange = () =>{
+        let pathname = window.location.pathname;
+        setPage(pathname)
+      }
+
 
   return (
     <BrowserRouter>
-    <Nav itemCount={count}/>
+    <Nav itemCount={count} pageChange={pageChange}/>
       <Routes>
         <Route path="/ecommerce-site" exact element={
             <App />
