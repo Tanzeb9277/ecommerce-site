@@ -80,14 +80,14 @@ const RouteSwitch = () => {
         resetCount(pos)
       }
 
-      if(pathname =="/shop"){
+      if(pathname =="/ecommerce-site/shop"){
         for(let i = 0; i<addButton.length; i++){
           addButton[i].addEventListener("click", addToCart);
         }
       }
 
         return () => {
-          if(pathname == '/shop'){
+          if(pathname == '/ecommerce-site/shop'){
             for(let i = 0; i<addButton.length; i++){
               addButton[i].removeEventListener("click", addToCart)
             }
