@@ -70,7 +70,8 @@ const RouteSwitch = () => {
     
     useEffect(() => {
       const addButton = document.querySelectorAll(".add-to-cart");
-      const pathname = window.location.pathname 
+      const pathname = window.location.pathname;
+      console.log(pathname)
 
       
 
