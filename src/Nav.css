@@ -8,13 +8,21 @@ nav{
   background-color: #363062;
 }
 
+nav div{
+  display: flex;
+  justify-content: space-around;
+  width: 38%;
+}
+
 .nav-links{
   list-style: none;
   width: 40%;
   display: flex;
-  justify-content: space-around;
+  justify-content: end;
   align-items: center;
+  float: right;
 }
+
 
 #logo{
   font-family: 'Rubik Glitch', cursive;

@@ -11,13 +11,16 @@ import { Link } from 'react-router-dom';
     render(){
         return(
             <nav>
-                <Link to="/"  className='header-links'>
-                    <h3 id='logo' data-page="home">I Like Purple</h3>
-                </Link>
-                <ul className='nav-links'>
-                    <Link to="/shop"  className='header-links'>
-                        <li data-page="shop">Shop</li>
+                <div>
+                    <Link to="/">
+                        <h3 id='logo'>Purple Gallery</h3>
                     </Link>
+                    <Link to="/shop" >
+                            <h3 >Purple Shop</h3>
+                    </Link>
+                </div>
+                
+                <ul className='nav-links'>
                     <li id='cart'>Cart : {this.props.itemCount}</li>
                 </ul>
             </nav>

@@ -3,6 +3,7 @@
     flex-direction:column;
     align-items:center;
     width:300px;
+    margin: 0 auto;
     height:500px;
     padding:20px 0;
     background-color:white;
@@ -17,9 +18,13 @@
   }
   .item-img{
     width:85%;
+    flex: 1 1 0%;
   }
   img{
     width:100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
   }
   .add{
     display:flex;
@@ -57,15 +62,21 @@
     cursor: pointer;
   }
   
-  form #decrease {
+  form .decrease {
     font-weight:bolder;
     margin-right: -4px;
     border-radius: 8px 0 0 8px;
+    line-height: 20px;
+    color: white;
+    background-color: #4D4C7D;
   }
   
-  form #increase {
+  form .increase {
     margin-left: -4px;
     border-radius: 0 8px 8px 0;
+    line-height: 20px;
+    color: white;
+    background-color: #9254C8;
   }
   
   form #input-wrap {
@@ -73,7 +84,7 @@
     padding: 0px;
   }
   
-  input#number {
+  input.number {
     text-align: center;
     border: none;
     border-top: 1px solid #ddd;
@@ -83,9 +94,13 @@
     height: 40px;
   }
   .add-to-cart{
-    width:50%;
-    margin:20px auto;
-    background: #eee;
+    width: 50%;
+    margin: 20px auto;
     border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #363062;
+    color: white;
+    font-weight: 600;
     
   }
