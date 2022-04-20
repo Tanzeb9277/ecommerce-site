@@ -12,10 +12,10 @@ import { Link } from 'react-router-dom';
         return(
             <nav>
                 <div>
-                    <Link to="/">
+                    <Link to="/ecommerce-site">
                         <h3 id='logo'>Purple Gallery</h3>
                     </Link>
-                    <Link to="/shop" >
+                    <Link to="ecommerce-site/shop" >
                             <h3 >Purple Shop</h3>
                     </Link>
                 </div>

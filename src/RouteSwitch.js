@@ -176,10 +176,10 @@ const RouteSwitch = () => {
     <BrowserRouter>
     <Nav itemCount={count}/>
       <Routes>
-        <Route path="/" exact element={
+        <Route path="/ecommerce-site" exact element={
             <App />
         }/>
-        <Route path="/shop"  element={
+        <Route path="ecommerce-site/shop"  element={
             <Shop
               items ={state.items}
               decreaseValue={decreaseValue}
