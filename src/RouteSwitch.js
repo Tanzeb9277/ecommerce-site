@@ -15,7 +15,7 @@ const RouteSwitch = () => {
           name:"Purple Keycaps",
           price: 31.99,
           img:"https://mechanicalkeyboards.com/shop/images/products/large_C01PP202_main.jpg",
-          count:1
+          count:0
   
         },
         {
@@ -24,7 +24,7 @@ const RouteSwitch = () => {
           name:"Purple Mouse",
           price: 72.99,
           img:"https://d2rd7etdn93tqb.cloudfront.net/wp-content/uploads/2020/08/logitech-g203-lightspeed-gaming-mouse-082520.jpg",
-          count:1
+          count:0
   
         },
         {
@@ -33,7 +33,7 @@ const RouteSwitch = () => {
           name:"Purple Office Chair",
           price: 749.99,
           img:"https://i.pinimg.com/originals/52/80/38/5280389f6294b56ca994db0f58ff38af.gif",
-          count:1
+          count:0
   
         },
         {
@@ -42,7 +42,7 @@ const RouteSwitch = () => {
           name:"Purple PS5 Controller",
           price: 74.99,
           img:"https://media.direct.playstation.com/is/image/sierialto/dualsense-ps5-controller-galactic-purple-accessory-front-right",
-          count:1
+          count:0
   
         },
         {
@@ -51,7 +51,7 @@ const RouteSwitch = () => {
           name:"Purple Night Light",
           price: 32.99,
           img:"https://cdn.shopify.com/s/files/1/0476/6649/5653/products/Lightroom-CC-Sync-044-web_8b42f12f-b45e-488b-bd3b-862cd93a1b4b_720x.jpg?v=1623421469",
-          count:1
+          count:0
   
         },
         {
@@ -60,7 +60,7 @@ const RouteSwitch = () => {
           name:"Purple iPhone 13",
           price: 879.00,
           img:"https://www.apple.com/newsroom/images/product/iphone/standard/apple_iphone-12-spring21_purple_04202021_big.jpg.large.jpg",
-          count:1
+          count:0
   
         },
       ]
